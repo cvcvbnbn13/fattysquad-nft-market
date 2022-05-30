@@ -156,12 +156,12 @@ const Profile: NextPage = () => {
                   </div>
 
                   <div className="flex">
-                    <button
+                    {/* <button
                       type="button"
                       className="flex-1 bg-indigo-600 py-2 px-4 border border-transparent rounded-md shadow-sm text-sm font-medium text-white hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
                     >
                       Download Image
-                    </button>
+                    </button> */}
                     <button
                       disabled={activeNFT.isListed}
                       onClick={() => {
